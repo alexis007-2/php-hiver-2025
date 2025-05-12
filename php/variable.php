@@ -14,3 +14,9 @@ $isAdmin = true;
 // Déclaration de variable de type NULL
 
 $noValue = NULL;
+
+// Pour afficher une variable on fait un echo
+
+echo $name;
+echo '<hr>';
+echo $price;
