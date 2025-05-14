@@ -1,5 +1,5 @@
 <?php
-$firstName = 'Jean';
+$firstName = 'Michel';
 $lastName = 'Dupond';
 $name = $firstName.' '.$lastName;
 echo $name;
