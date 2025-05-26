@@ -13,3 +13,13 @@ for($i=0;$i<count($noms);$i = $i+1){
 echo $noms[$i];
 echo '<hr>';
 }
+
+echo '<br>';
+echo'Boucle foreach <br>';
+foreach($noms as $n){
+    echo $n;
+    echo '<br>';
+}
+echo 'Ajout nom';
+$noms[]='Patrick';
+print_r($noms);
