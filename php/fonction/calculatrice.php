@@ -47,5 +47,22 @@ function carre(int $a):int
     return $a*$a;
 }
 
-$res = carre(4);
-echo $res;
+/**
+ * Verifie si un nombre est impair
+ *
+ * @param integer $a
+ * @return boolean
+ */
+function impair(int $a):bool
+{
+    if(($a%2)==1){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function cube(int $a):int
+{
+    return $a*$a*$a;
+}
